@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myhome page</title>
+</head>
+<body>
+<a href="{% url 'My-About' %}">About</a>
+<a href="{% url 'My-contact' %}">ContactUs</a>
+<a href="https://www.instagram.com/">Instagram</a>
+<h2>This is my first home page</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores assumenda aut dolores eaque, ex
+    labore libero magni maiores molestias nam nulla perspiciatis quia ratione repellat reprehenderit tempora tenetur vitae.</p>
+<img src="{% static 'img/dagger1.jpeg' %}" alt="">
+<img src="{% static 'img/dagger2.jpeg' %}" alt="">
+</body>
+</html>

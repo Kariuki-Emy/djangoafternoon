@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="`en`">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+</head>
+<body>
+<a href="{% url 'My-contact' %}">Contact Us</a>
+<a href="{% url 'My-Index' %}">HomePage</a>
+<h2>About Us</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus assumenda corporis
+    delectus dignissimos esse facilis ipsam libero numquam, odio, pariatur quam sapiente temporibus! Consectetur harum laborum nihil optio quas voluptate.</span><span>Dolor dolore dolores eligendi eos esse excepturi explicabo facere facilis illum labore maxime, natus officia perferendis placeat quam quibusdam quos ratione suscipit tenetur voluptatibus! Atque iusto natus optio quas sapiente.</span><span>Autem commodi consequuntur et ex explicabo hic, id inventore necessitatibus, nemo nostrum, optio qui sed sequi unde voluptatum. Autem dolores laboriosam magnam minus modi molestias nam ratione sequi suscipit voluptate!</span></p>
+<img src="{% static 'img/dagger1.jpeg' %}" alt="">
+<img src="{% static 'img/dagger2.jpeg' %}" alt="">
+</body>
+</html>
